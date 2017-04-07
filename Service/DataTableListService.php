@@ -115,7 +115,8 @@ class DataTableListService {
         $queryBuilder = $this->repository->createDataTableQueryBuilder($this->getEntityName());
 
         try {
-            $this->recordsTotal = (int)$queryBuilder->select('COUNT(' . $this->getEntityName() . ')')
+            $this->recordsTotal = (int)$queryBuilder->select('COUNT(DISTINCT ' . $this->getEntityName() . ')')
+		->resetDQLPart('groupBy')
                 ->getQuery()
                 ->getSingleScalarResult();
         } catch(Exception $e) {

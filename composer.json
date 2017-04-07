@@ -1,11 +1,7 @@
 {
-    "name" : "jasuwienas/data-table",
+    "name" : "mmc/jasuwienas-data-table",
     "description" : "Integrates datatable into Symfony2 project.",
     "type" : "symfony-bundle",
-    "authors" : [{
-        "name" : "Jasuwienas Mariusz",
-        "email" : "jasuwienas@gmail.com"
-    }],
     "keywords" : [
         "datatable data tables datatables table symfony2"
     ],
