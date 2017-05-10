@@ -1,5 +1,5 @@
 {
-    "name" : "mmc/jasuwienas-data-table",
+    "name" : "silksh/jasuwienas-data-table",
     "description" : "Integrates datatable into Symfony2 project.",
     "type" : "symfony-bundle",
     "keywords" : [
